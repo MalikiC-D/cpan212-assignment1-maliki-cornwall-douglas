@@ -1,0 +1,18 @@
+{
+  "name": "cpan212-assignment1-maliki-cornwall-douglas",
+  "version": "1.0.0",
+  "description": "City Weather API: an Express service that calls Open-Meteo",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env src/server.js",
+    "start": "node --env-file-if-exists=.env src/server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
